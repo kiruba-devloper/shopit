@@ -15,7 +15,7 @@ public class ShopitDao {
         Connection con=null;  
         try{  
         	Class.forName("com.mysql.cj.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/shoppingcart","root","1234");  
+			con = DriverManager.getConnection("jdbc:mysql://sql12.freesqldatabase.com:3306/sql12771409","sql12771409","1aSVuBYUg8");  
         }catch(Exception e){System.out.println(e);}  
         return con;  
 
